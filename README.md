@@ -14,7 +14,7 @@ $ tpsinfo
 ### Complilation \ Install
 Get sources:
 ```
-wget https://github.com/bestlion/tpscabinet/archive/tpscabinet1.0.tar.gz
+wget https://github.com/bestlion/tpscabinet-linux/archive/tpscabinet1.0.tar.gz
 ```
 Unpack:
 ```
@@ -22,7 +22,7 @@ tar -zxvf tpscabinet1.0.tar.gz
 ```
 Compile
 ```
-cd tpscabinet-linux-1.0
+cd tpscabinet-linux-tpscabinet1.0
 sudo apt-get update
 sudo apt-get install libcurl4-gnutls-dev
 gcc -o tpsinfo tpsinfo.c -lcurl
